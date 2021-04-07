@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="images/shortcut.png">
+
+    <script src="signtellations.js"></script>
+
+	<title>Portfolio</title>
+
+	<style type="text/css">
+		.title {
+			color: darkblue;
+			text-align: center;
+			margin-top: 100px;
+			margin-bottom: 50px;
+
+		}
+
+		.title>h1 {
+            font-size: 56px;
+            margin-bottom: 0;
+
+        }	
+
+        body {
+            background-color: ivory;
+            background-image: url("images/Zodiac_Circle.png");
+            background-position: 550px 100px;
+            background-repeat: no-repeat;
+        
+        }
+
+        * {
+            font-family: 'Yeon Sung', cursive;
+        }
+
+        .sign1 {
+            background-image: url("images/signS1.png");
+        }
+        .sign2 {
+            background-image: url("images/signS2.png");
+        }
+        .sign3 {
+            background-image: url("images/signS3.png");
+        }
+        .sign4 {
+            background-image: url("images/signS4.png");
+        }
+        .sign5 {
+            background-image: url("images/signS5.png");
+        }
+        .sign6 {
+            background-image: url("images/signS6.png");
+        }    
+        .sign7 {
+            background-image: url("images/signS7.png");
+        }
+        .sign8 {
+            background-image: url("images/signS8.png");
+        }
+        .sign9 {
+            background-image: url("images/signS9.png");
+        }
+        .sign10 {
+            background-image: url("images/signS10.png");
+        }
+        .sign11 {
+            background-image: url("images/signS11.png");
+        }
+        .sign12 {
+            background-image: url("images/signS12.png");
+        }
+
+        .text{
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+            visibility: hidden;
+        }
+
+        .term{
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+            visibility: hidden;
+            font-size: 24px;
+            color: darkred;
+        }
+
+        .writer{
+            color: darkblue;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+
+        .constellations > a {
+            display: block;
+            width: 150px;
+            height: 150px;
+            border: 3px solid darkblue;
+            background-color: white;
+            box-shadow: 0px 0px 10px 0px darkblue;
+            border-radius: 150px;
+            margin: 10px;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            font-size: 30px;
+            background-size: contain;
+            background-position: center;
+            
+
+
+        }
+        .constellations {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 1200px;
+            margin: auto;
+
+        
+        }
+        .constellations > a:hover .text{
+        
+            border-radius: 3px solid darkred;
+            background-color: none;
+            visibility: visible;
+        
+        }
+
+        .constellations > a:hover .term{
+        
+            border-radius: 3px solid darkred;
+            background-color: none;
+            visibility: visible;
+        
+        }        
+
+        @media screen and (max-width: 780px) {
+            body {
+                background-position: 70px -70px;
+                background-size: 500px;
+            }
+
+            .constellations {
+                width: 100%
+            }
+
+            .title {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .constellations > a {
+                visibility: visible;
+
+            }
+            .text{
+                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+                visibility: visible;
+            }
+
+            .term{
+                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+                visibility: visible;
+                
+            }
+	</style>
+</head>
+<body>
+	<div class="title">
+		<h1>4월 별자리 운세</h1>
+	</div>
+	
+	<div class = "constellations">
+        <a class="sign1" href="result.html?term=1">
+            <div class="text"><br>물병</div>
+            <div class="term">01/20 ~ 02/18</div>
+        </a>
+        <a class="sign2" href="result.html?term=2">
+            <div class="text"><br>물고기</div>
+            <div class="term">02/19 ~ 03/20</div>
+        </a>
+        <a class="sign3" href="result.html?term=3">
+            <div class="text"><br>양</div>
+            <div class="term">03/21 ~ 04/19</div>
+        </a>
+        <a class="sign4" href="result.html?term=4">
+            <div class="text"><br>황소</div>
+            <div class="term">04/20 ~ 05/20</div>
+        </a>
+        <a class="sign5" href="result.html?term=5">
+            <div class="text"><br>쌍둥이</div>
+            <div class="term">05/21 ~ 06/21</div>
+        </a>
+        <a class="sign6" href="result.html?term=6">
+            <div class="text"><br>게</div>
+            <div class="term">06/22 ~ 07/22</div>
+        </a>
+        <a class="sign7" href="result.html?term=7">
+            <div class="text"><br>사자</div>
+            <div class="term">07/23 ~ 08/22</div>
+        </a>
+        <a class="sign8" href="result.html?term=8">
+            <div class="text"><br>처녀</div>
+            <div class="term">08/23 ~ 09/23</div>
+        </a>
+        <a class="sign9" href="result.html?term=9">
+            <div class="text"><br>천칭</div>
+            <div class="term">09/24 ~ 10/22</div>
+        </a>
+        <a class="sign10" href="result.html?term=10">
+            <div class="text"><br>전갈</div>
+            <div class="term">10/23 ~ 11/22</div>
+        </a>
+        <a class="sign11" href="result.html?term=11">
+            <div class="text"><br>사수</div>
+            <div class="term">11/23 ~ 12/24</div>
+        </a>
+        <a class="sign12" href="result.html?term=12">
+            <div class="text"><br>염소</div>
+            <div class="term">12/25 ~ 01/19</div>
+        </a>
+
+	</div>
+
+    <div class="writer">
+        <h2>UPDATE. 2021/04/06</h2>
+        <h2>작성자. 김왕우</h2>  
+    </div>          
+</body>
+</html>
